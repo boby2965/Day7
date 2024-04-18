@@ -9,22 +9,29 @@
         {
             position: relative;
             padding: 10px;
+            flex-direction: row;
+            
         }
+       
     </style>
 </head>
 <body>
     <center><h1>Registration Form</h1></center>
-        <form align="center">
+        <form align="center" name="frmRegister" >
             <div>
                 <label for="name">First Name:</label>
                 <input type="text" placeholder="Enter first name"><br>
                 <label for="name">Last Name:</label>
                 <input type="text" placeholder="Enter last name"><br>
+                <label for="Username">Username</label>
+                <input type="text" placeholder="Enter Username"><br>
                 <label for="Email">Email:</label>
                 <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
                 <label for="pwd">Passsword:</label>
                 <input type="password" placeholder="password"><br>
-                <button type="submit">Login</button>
+                <label for="pwd">Confirm Passsword:</label>
+                <input type="password" placeholder="Confirm Passsword"><br>
+                <button type="submit" name="btnRegister">Login</button>
             </div>
          </form>
 </body>
